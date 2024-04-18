@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.clock{
+    width: 50px;
+    height: 50px;
+}
+.block{
+    display: flex;
+    background-color: rgb(255, 0, 55);
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+}
+.block a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+.block a:hover{
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+}
+.block input{
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+.block input:hover{
+    color: white;
+    cursor: pointer;
+}
+.HH{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+.form-horizontal{
+    width: 700px;
+}
+.ff{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 30px;
+    gap: 10px;
+    justify-content: center;
+}
+.ff .form-control{
+    font-size: 25px;
+    padding: 5px;
+    width: 700px;
+    border: 3px white solid;
+}
+.but{
+    font-size: 25px;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: 3px white solid;
+}
+.but:hover{
+    background-color: rgb(1, 255, 1);
+    border: black 3px solid;
+}
+.form-control{
+    background-color: rgb(235, 235, 247);
+    color: rgb(0, 0, 0);
+}
+strong{
+    background-color: rgb(255, 239, 168);
+    color: rgb(76, 63, 2);
+    font-size: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 0px;
+}
+.slider{
+    background-color: rgb(172, 170, 170);
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.459); 
+    display: flex;
+    color: white;
+    font-size: 15px;
+    /* padding: 10px; */
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    bottom: -45px;
+}
+.slider img{
+    width: 100%;
+}
+.pp{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+.bod{
+    background-color: cadetblue;
+}
+.c{
+    width: auto;
+    height: 700px;
+    background-color: bisque;
+}
+
+.card1{
+    grid-area: a;
+}
+.card2{
+    grid-area: b;
+}
+.card3{
+    grid-area: c;
+}
+.card4{
+    grid-area: d;
+}
+.card5{
+    grid-area: e;
+}
+.card6{
+    grid-area: f;
+}
+.card7{
+    grid-area: g;
+}
+.card8{
+    grid-area: h;
+}
+.card9{
+    grid-area: t;
+    width: auto;
+}
+.card10{
+    grid-area: n;
+    width: auto;
+}
+.card9 img, .card10 img{
+    width: 98%;
+}
+img{
+    padding: 10px;
+    width: 430px;
+    height: 300px;
+}
+.cards{
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "t t n n";
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
